@@ -23,7 +23,7 @@ public final class BountyEnchantmentConfig {
 
     public static BountyEnchantmentConfig loadOrCreate() {
         Path cfgDir = FabricLoader.getInstance().getConfigDir();
-        Path cfgPath = cfgDir.resolve("xpboost.json");
+        Path cfgPath = cfgDir.resolve(String.format("%s.json", BountyEnchantmentMod.MODID));
 
         if (!Files.exists(cfgPath)) {
             BountyEnchantmentConfig cfg = defaults();
