@@ -6,7 +6,9 @@
   "description": "Server-only enchantment that increases mob XP drops.",
   "authors": ["FireDragon91245"],
   "contact": {
-    "sources": ""
+    "sources": "https://github.com/FireDragon91245/Bounty-Enchantment",
+    "issues": "https://github.com/FireDragon91245/Bounty-Enchantment/issues",
+    "homepage": ""
   },
   "license": "MIT",
   "icon": "assets/bounty_enchantment/icon.png",
