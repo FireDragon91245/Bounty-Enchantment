@@ -22,7 +22,7 @@ import java.util.Optional;
 public abstract class LivingEntityBountyXpBonusMixin {
 
     @Redirect(
-            method = "dropXp",
+            method = "dropExperience",
             at = @At(
                     value = "INVOKE",
                     target =
@@ -71,7 +71,7 @@ public abstract class LivingEntityBountyXpBonusMixin {
 
                     if (BountyEnchantmentMod.CONFIG.debug) {
                         BountyEnchantmentMod.LOG.info(
-                                "[XPBoost] {} base={} level={} multiplier={} result={}",
+                                "[Bounty Enchantment] {} base={} level={} multiplier={} result={}",
                                 self.getName().getString(),
                                 vanillaAmount,
                                 level,

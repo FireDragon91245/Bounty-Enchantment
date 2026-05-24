@@ -12,7 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public final class BountyEnchantmentConfig {
-    public static final String MOD_VERSION = "1.0.0";
+    public static final String MOD_VERSION = "1.0.1";
     private static final Gson GSON =
             new GsonBuilder().setPrettyPrinting().create();
 
